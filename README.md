@@ -1,3 +1,6 @@
+Learn how to version control projects with git
+
+
 # mycode
 Learning to track my code
 
