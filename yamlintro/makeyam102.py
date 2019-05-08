@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+# yaml is NOT part of the standard libray
+# python3 -m pip install pyyaml
+import yaml
+
+def main():
+    ## create a blob of data to work with
+    hitchhikers = [{"name": "Zaphod Beeblebrox", "species": "Betelgeusian"}, \
+            {"name": "Arthur Dent", "species": "Human"}]
+
+    ## displat our python data (a list containing two dictionaries)
+    print(hitchhikers)
+
+    ## Create the yaml string
+    yamlstring = yaml.dump(hitchhikers)
+
+    ## Displaya single string of YAML
+    print(yamlstring)
+
+main()
+
+
